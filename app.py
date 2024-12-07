@@ -153,7 +153,6 @@ def update_graphs(selected_country, year_range, pie_energy, scatter_energy):
 
     return trend_fig, share_fig, gdp_fig
 
-# Run the app
-if __name__ == "__main__":
-    app.run_server(debug=True)
+# Ensure the app is callable by gunicorn
+server = app.server
 
