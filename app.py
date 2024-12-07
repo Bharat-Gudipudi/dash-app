@@ -155,5 +155,5 @@ def update_graphs(selected_country, year_range, pie_energy, scatter_energy):
 
 # Run the app
 if __name__ == "__main__":
-    app.run_server(debug=True, host="0.0.0.0", port=8080)
+    app.run_server(debug=True)
 
